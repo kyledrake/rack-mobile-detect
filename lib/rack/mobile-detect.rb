@@ -117,7 +117,7 @@ module Rack
 
       # From mobile-fu: http://github.com/brendanlim/mobile-fu
       @regex_ua_catchall = options[:catchall] ||
-        Regexp.new('palm|palmos|palmsource|iphone|blackberry|nokia|phone|midp|mobi|pda|' +
+        Regexp.new('webos|palm|palmos|palmsource|iphone|blackberry|nokia|phone|midp|mobi|pda|' +
                    'wap|java|nokia|hand|symbian|chtml|wml|ericsson|lg|audiovox|motorola|' +
                    'samsung|sanyo|sharp|telit|tsm|mobile|mini|windows ce|smartphone|' +
                    '240x320|320x320|mobileexplorer|j2me|sgh|portable|sprint|vodafone|' +
